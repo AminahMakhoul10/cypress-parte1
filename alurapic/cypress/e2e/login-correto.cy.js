@@ -5,7 +5,7 @@ describe('Pagina de login, cenário de sucesso', () => {
   })
 
   it('Deve realizar login com sucesso', () => {
-    cy.getByData('loginUserName').type('aminah')
+    cy.getByData('loginUserName').type('aminah123')
     cy.getByData('loginPassword').type('12345678')
     cy.getByData('loginBtn').click()
   })
